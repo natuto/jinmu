@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.shisigui.jinmuyan.activity.MainActivity">
+    <TextView
+        android:textSize="27sp"
+        android:paddingTop="25dp"
+        android:paddingBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="#EE4000"
+        android:text="漫画re大全"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_about1"
+            android:textColor="#000"
+            android:text="57漫画网"/>
+        <Button
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botton_7"
+            android:text="链接"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_about2"
+            android:textColor="#000"
+            android:text="kuku漫画网"/>
+        <Button
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botton_8"
+            android:text="链接"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_about3"
+            android:textColor="#000"
+            android:text="飞丸漫画网"/>
+        <Button
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botton_9"
+            android:text="链接"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_about4"
+            android:textColor="#000"
+            android:text="漫画柜网"/>
+        <Button
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botton_10"
+            android:text="链接"/>
+
+    </LinearLayout>
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="如有问题请联系"/>
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:text="QQ 2932151815"/>
+
+
+</LinearLayout>

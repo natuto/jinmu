@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.shisigui.jinmuyan.activity.PictureActivity">
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pic_recyclerview">
+
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="55dp"
+
+        android:id="@+id/text_show"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linear_show"
+        android:background="#ccCD3278">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:text="上一话"
+            android:gravity="center_horizontal"
+            android:id="@+id/text1"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="下一话"
+            android:id="@+id/text2"
+            />
+
+
+
+    </LinearLayout>
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+        android:background="#ccCD3278"
+        android:id="@+id/toobar_pic">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11111111111"
+            android:textSize="20sp"
+            android:id="@+id/tv_title"
+            android:layout_gravity="center_horizontal"/>
+
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>
